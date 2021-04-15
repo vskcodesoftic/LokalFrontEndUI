@@ -9801,7 +9801,7 @@ header {
       padding: 5px 8px;
       font-size: 20px;
       line-height: 1;
-      color: #191919;
+      color: #6b3c3c;
       background: none;
       border: none;
       display: inline-block;
@@ -9809,7 +9809,7 @@ header {
       header .tt-dropdown-obj .tt-dropdown-toggle i {
         pointer-events: none; }
     header .tt-dropdown-obj .tt-dropdown-toggle:hover {
-      color: #2B5A80; }
+      color: #f1f1f1; }
     header .tt-dropdown-obj .tt-dropdown-menu {
       display: none;
       background: #ffffff;
@@ -9837,7 +9837,7 @@ header {
       max-width: inherit; } }
   header .tt-dropdown-obj.active .tt-dropdown-toggle {
     z-index: 2;
-    color: #2B5A80; }
+    color: #ffffff; }
   header .tt-cart .tt-dropdown-menu,
   header .tt-account .tt-dropdown-menu,
   header .tt-multi-obj .tt-dropdown-menu {
@@ -11278,19 +11278,19 @@ header .container-fluid {
   padding-right: 0; }
 
 .tt-desctop-menu:not(.tt-hover-02) li.dropdown > a {
-  color: #191919;
+  color: #f0f0f0;
   background: transparent; }
 
 .tt-desctop-menu:not(.tt-hover-02) li.dropdown > a:hover {
-  color: #2B5A80;
+  color: #f0f0f0;
   background: transparent; }
 
 .tt-desctop-menu:not(.tt-hover-02) li.dropdown.active > a {
-  color: #2B5A80;
+  color: #f0f0f0;
   background: transparent; }
 
 .tt-desctop-menu:not(.tt-hover-02) li.dropdown.selected > a {
-  color: #2B5A80;
+  color: #f0f0f0;
   background: transparent; }
 
 .tt-desctop-menu.tt-hover-02 nav > ul li.dropdown > a {
@@ -11298,7 +11298,7 @@ header .container-fluid {
   padding-right: 13px; }
 
 .tt-desctop-menu.tt-hover-02 nav > ul li.dropdown > a {
-  color: #191919;
+  color: #f0f0f0;
   background: transparent; }
 
 .tt-desctop-menu.tt-hover-02 nav > ul li.dropdown > a:hover {
@@ -11523,7 +11523,7 @@ body:not(.touch-device) .tt-menu-toggle:not(.stylization-02):hover i {
         margin-right: -20px; } }
   @media (min-width: 1025px) {
     .stuck.tt-stuck-nav {
-      background: #ffffff; } }
+      background: #2B5A80; } }
 
 /* tt-promo-02 (header banners) */
 .tt-promo-02 {
@@ -12820,7 +12820,7 @@ html.ie .tt-header-holder .tt-desctop-menu.tt-menu-small {
     display: none; } }
 
 #tt-header {
-  background: #ffffff; }
+  background: #2B5A80; }
   #tt-header .tt-desktop-header .tt-obj-search-type2 {
     position: relative;
     top: 0px;
@@ -12895,7 +12895,7 @@ html.ie .tt-header-holder .tt-desctop-menu.tt-menu-small {
   max-width: 26px; }
 
 header .tt-dropdown-obj .tt-dropdown-toggle {
-  color: #191919; }
+  color: #ffffff; }
 
 .headertype4 .tt-top-panel .tt-row {
   font-size: 24px;
