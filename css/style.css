@@ -11429,6 +11429,7 @@ body:not(.touch-device) .tt-menu-toggle:not(.stylization-02):hover i {
   backface-visibility: hidden;
   display: none;
   top: -100%;
+  text-align: center;
   z-index: 20;
   box-shadow: 0 0px 8px rgba(0, 0, 0, 0.3);
   min-height: 45px; }
@@ -11484,6 +11485,7 @@ body:not(.touch-device) .tt-menu-toggle:not(.stylization-02):hover i {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
+      align-items: center;
       padding-left: 10px;
       padding-right: 10px; }
       .tt-stuck-nav .tt-header-row .tt-parent-box {
@@ -11504,7 +11506,8 @@ body:not(.touch-device) .tt-menu-toggle:not(.stylization-02):hover i {
   top: 0; }
   @media (max-width: 1024px) {
     .stuck.tt-stuck-nav {
-      background: #2B5A80; }
+      background: #2B5A80;
+       }
       .stuck.tt-stuck-nav .tt-search .tt-dropdown-menu .search-results {
         top: 23px;
         border-top: 1px solid #e9e7e7;
@@ -11523,6 +11526,8 @@ body:not(.touch-device) .tt-menu-toggle:not(.stylization-02):hover i {
         margin-right: -20px; } }
   @media (min-width: 1025px) {
     .stuck.tt-stuck-nav {
+      /* padding-left: 550px; */
+    
       background: #2B5A80; } }
 
 /* tt-promo-02 (header banners) */
@@ -30784,10 +30789,10 @@ html:not(.mac):not(.touch-device) .tt-bg-fill {
 
 
 
-    .tp-caption1-wd-4-change
+    /* .tp-caption1-wd-4-change
     {
       margin-top:24em;
-    }
+    } */
     .tp-caption1-wd-4-change a
     {
       background-color:#ffffff!important;
